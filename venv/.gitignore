@@ -1,5 +1,2 @@
 # created by virtualenv automatically
-/creds/bot_token.txt
-/creds/iam_token.txt
-/creds/folder_id.txt
-
+/creds
