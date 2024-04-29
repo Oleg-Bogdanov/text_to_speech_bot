@@ -9,7 +9,7 @@ MAX_USER_GPT_TOKENS = 2000  # 2 000 токенов
 MAX_TTS_PROJECT = 15000
 MAX_TTS_SYMBOLS = 300
 
-HOME_DIR = '/home/student/pythonProject42'  # путь к папке с проектом
+HOME_DIR = '/home/student/voice-assistant-tg'   # путь к папке с проектом
 LOGS = f'{HOME_DIR}/logs.txt'  # файл для логов
 DB_FILE = f'{HOME_DIR}/messages.db'  # файл для базы данных
 SYSTEM_PROMPT = [{'role': 'system', 'text': 'Моя задача — помогать пользователям, '
