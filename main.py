@@ -7,8 +7,8 @@ from database import create_db, create_table, \
 from yandex_gpt import speech_to_text, ask_gpt, text_to_speech
 from creds import get_bot_token  # модуль для получения bot_token
 
-# bot = telebot.TeleBot(get_bot_token())  # создаём объект бота
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(get_bot_token())  # создаём объект бота
+# bot = telebot.TeleBot(BOT_TOKEN)
 logging.basicConfig(filename=LOGS, level=logging.ERROR,
                     format="%(asctime)s FILE: %(filename)s IN: "
                            "%(funcName)s MESSAGE: %(message)s", filemode="w")

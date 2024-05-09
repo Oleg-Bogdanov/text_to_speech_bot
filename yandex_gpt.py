@@ -1,10 +1,12 @@
 import requests
 import logging  # модуль для сбора логов
 # подтягиваем константы из config файла
-from config import LOGS, MAX_GPT_TOKENS, SYSTEM_PROMPT
+from config import LOGS, MAX_GPT_TOKENS, SYSTEM_PROMPT, IAM_TOKEN, FOLDER_ID
 from creds import get_creds  # модуль для получения токенов
 
 iam_token, folder_id = get_creds()  # получаем iam_token и folder_id из файлов
+# iam_token = IAM_TOKEN
+# folder_id = FOLDER_ID
 # настраиваем запись логов в файл
 logging.basicConfig(filename=LOGS, level=logging.ERROR,
                     format="%(asctime)s FILE: %(filename)s IN: %(funcName)s MESSAGE: %(message)s", filemode="w")

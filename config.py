@@ -32,8 +32,8 @@ BOT_TOKEN_PATH = f'{HOME_DIR}/creds/bot_token.txt'  # файл для хране
 BOT_TOKEN = f'7077602673:AAGQ04U8RejmxjSBvlxJHlb1fm4Kg8AWBZI'
 FOLDER_ID = f'b1gv7tv6tfmd502i7fif'
 IAM_TOKEN = "t1.9euelZqVm5WZns_PkM-Pjo6SyMnPx-3rnpWai8iLlprInZCPzJKQk4-Rl5bl9Pd1RBlO-e9CACvD3fT3NXMWTvnvQgArw83n9euelZqakI7Izs3HkIrPk52az5iTmO_8xeuelZqakI7Izs3HkIrPk52az5iTmL3rnpWamcyWy5WQzYvHyZqalZ7MnMm13oac0ZyQko-Ki5rRi5nSnJCSj4qLmtKSmouem56LntKMng.xJYzB8i_WhSVVmCvakCfr5Ftl8fZz7dFVtb-oWm1oRGeP5HwQvoMDVosQyh5IuvWAJBf6-Es7sHQyjWLdzT3AQ"
-LOGS = f'logs.txt'
-DB_FILE = f'messages.db'
+# LOGS = f'logs.txt'
+# DB_FILE = f'messages.db'
 errors_list = 'список возможных ошибок: \n' \
               '400 - сервер не понял, что от него хотят \n' \
               '403 - доступ к странице запрещён \n' \
